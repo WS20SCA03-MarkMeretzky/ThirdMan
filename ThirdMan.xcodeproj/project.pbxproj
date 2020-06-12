@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		4DCCF43224930948001853CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCF43124930948001853CA /* AppDelegate.swift */; };
 		4DCCF43424930948001853CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCF43324930948001853CA /* SceneDelegate.swift */; };
-		4DCCF43624930948001853CA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCF43524930948001853CA /* FirstViewController.swift */; };
-		4DCCF43824930948001853CA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCF43724930948001853CA /* SecondViewController.swift */; };
+		4DCCF43624930948001853CA /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCF43524930948001853CA /* TextViewController.swift */; };
+		4DCCF43824930948001853CA /* PosterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCF43724930948001853CA /* PosterViewController.swift */; };
 		4DCCF43B24930948001853CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCCF43924930948001853CA /* Main.storyboard */; };
 		4DCCF43D2493094A001853CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCCF43C2493094A001853CA /* Assets.xcassets */; };
 		4DCCF4402493094A001853CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCCF43E2493094A001853CA /* LaunchScreen.storyboard */; };
+		4DCCF46A249319D6001853CA /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCF469249319D6001853CA /* AudioViewController.swift */; };
+		4DCCF46C24931EA9001853CA /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCF46B24931EA9001853CA /* VideoViewController.swift */; };
+		4DCCF46E2493984F001853CA /* CastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCF46D2493984F001853CA /* CastTableViewController.swift */; };
+		4DCCF4702493A391001853CA /* thirdman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DCCF46F2493A391001853CA /* thirdman.mp3 */; };
+		4DCCF4722493A78E001853CA /* thirdman.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4DCCF4712493A78E001853CA /* thirdman.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4DCCF42E24930948001853CA /* ThirdMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCCF43124930948001853CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DCCF43324930948001853CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4DCCF43524930948001853CA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		4DCCF43724930948001853CA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4DCCF43524930948001853CA /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		4DCCF43724930948001853CA /* PosterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterViewController.swift; sourceTree = "<group>"; };
 		4DCCF43A24930948001853CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DCCF43C2493094A001853CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DCCF43F2493094A001853CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DCCF4412493094A001853CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DCCF469249319D6001853CA /* AudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
+		4DCCF46B24931EA9001853CA /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		4DCCF46D2493984F001853CA /* CastTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastTableViewController.swift; sourceTree = "<group>"; };
+		4DCCF46F2493A391001853CA /* thirdman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thirdman.mp3; sourceTree = "<group>"; };
+		4DCCF4712493A78E001853CA /* thirdman.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = thirdman.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +70,17 @@
 			children = (
 				4DCCF43124930948001853CA /* AppDelegate.swift */,
 				4DCCF43324930948001853CA /* SceneDelegate.swift */,
-				4DCCF43524930948001853CA /* FirstViewController.swift */,
-				4DCCF43724930948001853CA /* SecondViewController.swift */,
+				4DCCF43524930948001853CA /* TextViewController.swift */,
+				4DCCF43724930948001853CA /* PosterViewController.swift */,
+				4DCCF46D2493984F001853CA /* CastTableViewController.swift */,
+				4DCCF469249319D6001853CA /* AudioViewController.swift */,
+				4DCCF46B24931EA9001853CA /* VideoViewController.swift */,
 				4DCCF43924930948001853CA /* Main.storyboard */,
 				4DCCF43C2493094A001853CA /* Assets.xcassets */,
 				4DCCF43E2493094A001853CA /* LaunchScreen.storyboard */,
 				4DCCF4412493094A001853CA /* Info.plist */,
+				4DCCF46F2493A391001853CA /* thirdman.mp3 */,
+				4DCCF4712493A78E001853CA /* thirdman.mov */,
 			);
 			path = ThirdMan;
 			sourceTree = "<group>";
@@ -129,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DCCF4402493094A001853CA /* LaunchScreen.storyboard in Resources */,
+				4DCCF4702493A391001853CA /* thirdman.mp3 in Resources */,
 				4DCCF43D2493094A001853CA /* Assets.xcassets in Resources */,
+				4DCCF4722493A78E001853CA /* thirdman.mov in Resources */,
 				4DCCF43B24930948001853CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,10 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DCCF43824930948001853CA /* SecondViewController.swift in Sources */,
-				4DCCF43624930948001853CA /* FirstViewController.swift in Sources */,
+				4DCCF43824930948001853CA /* PosterViewController.swift in Sources */,
+				4DCCF43624930948001853CA /* TextViewController.swift in Sources */,
+				4DCCF46E2493984F001853CA /* CastTableViewController.swift in Sources */,
+				4DCCF46C24931EA9001853CA /* VideoViewController.swift in Sources */,
 				4DCCF43224930948001853CA /* AppDelegate.swift in Sources */,
 				4DCCF43424930948001853CA /* SceneDelegate.swift in Sources */,
+				4DCCF46A249319D6001853CA /* AudioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

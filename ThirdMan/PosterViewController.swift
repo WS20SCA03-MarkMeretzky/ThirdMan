@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  PosterViewController.swift
 //  ThirdMan
 //
 //  Created by Mark Meretzky on 6/11/20.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class PosterViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad();
         // Do any additional setup after loading the view.
     }
 
-
 }
-
